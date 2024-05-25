@@ -1,0 +1,17 @@
+.background-container {
+    background-image: url('../public/cielo3.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    
+  }
+  
+footer{
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 4%;
+  font-size: 15px;
+}
+p{
+  text-align: center;
+}
