@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: nombre-de-tu-app-frontend
+    env: static
+    staticPublishPath: build
+    buildCommand: npm run build
