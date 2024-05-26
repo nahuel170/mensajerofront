@@ -15,7 +15,7 @@ import {
   Divider,
 } from "semantic-ui-react";
 
-const socket = io.connect(apiUrl);
+const socket = io.connect('http://localhost:3001');
 function App() {
   const [username, setUsername] = useState("");
   const room = "general";
