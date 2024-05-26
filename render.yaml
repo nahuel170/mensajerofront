@@ -4,3 +4,6 @@ services:
     env: static
     staticPublishPath: dist
     buildCommand: npm run build
+     envVars:
+      - key: VITE_API_URL
+        value: https://mensajeroback.onrender.com/ 

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+const apiUrl = import.meta.env.VITE_API_URL;
 
 
 import io from "socket.io-client";
@@ -14,7 +15,7 @@ import {
   Divider,
 } from "semantic-ui-react";
 
-const socket = io.connect("http://localhost:3001");
+const socket = io.connect(apiUrl);
 function App() {
   const [username, setUsername] = useState("");
   const room = "general";
