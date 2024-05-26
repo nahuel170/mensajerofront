@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: nombre-de-tu-app-frontend
+    name: Mensajero IVF
     env: static
-    staticPublishPath: build
+    staticPublishPath: dist
     buildCommand: npm run build
