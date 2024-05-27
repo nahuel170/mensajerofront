@@ -1,9 +1,10 @@
 services:
   - type: web
-    name: Mensajero IVF
-    env: static
-    staticPublishPath: dist
+    name: mensajerofront
+    env: node
+    plan: free
     buildCommand: npm install && npm run build
-     envVars:
+    startCommand: npx serve -s dist
+    envVars:
       - key: VITE_API_URL
-        value: https://mensajeroback.onrender.com/ 
+        value: https://mensajeroback.onrender.com
