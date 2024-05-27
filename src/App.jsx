@@ -15,11 +15,19 @@ import {
   Divider,
 } from "semantic-ui-react";
 
-const socket = io.connect('https://mensajeroback.onrender.com/');
+const socket = io.connect('https://mensajeroback.onrender.com');
 function App() {
   const [username, setUsername] = useState("");
   const room = "general";
   const [showChat, setShowChat] = useState(false);
+  const apiUrl = import.meta.env.VITE_API_URL;
+
+  useEffect(() => {
+    fetch(`${apiUrl}/ruta-de-tu-api`)
+      .then(response => response.json())
+      .then(data => setData(data))
+      .catch(error => console.error('Error:', error));
+  }, [apiUrl]);
 
   const joinRoom = () => {
     if (username !== "" && room !== "") {
