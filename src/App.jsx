@@ -42,7 +42,7 @@ function App() {
   return (
     <div className="background-container">
     <Container >
-          <Header  textAlign="center" as='h1' image='https://scontent-eze1-1.xx.fbcdn.net/v/t39.30808-6/265212056_2654708808007696_6941381469015663112_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeECd7QtBOeHL8x5jfSlZct0O1pyo1OgaBk7WnKjU6BoGT0jJLflagjb0zjHVD6CFeAJ26kFxhGn72HzRiCVdx1Q&_nc_ohc=MhPKiikqUEQQ7kNvgHYfLwE&_nc_ht=scontent-eze1-1.xx&oh=00_AYCXR-nZVBoe30by02KPe9D1g4QlZm5JvtUT1pky3s0MSA&oe=6656CC0A'  content='Caminando con jesus' />
+          <Header  textAlign="center" as='h1' href="/cielo3.jpeg"  content='Caminando con jesus' />
           <Header textAlign="center"sub>una radio de la iglesia vision de futuro (seccional cordoba)</Header>
   <br />
   <br />
