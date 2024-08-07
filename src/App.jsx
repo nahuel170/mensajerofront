@@ -42,7 +42,7 @@ function App() {
   return (
     <div className="background-container">
     <Container >
-          <Header  textAlign="center" as='h1' image='c:\Users\54351\Pictures\Camera Roll\265212056_2654708808007696_6941381469015663112_n.jpg'  content='Caminando con jesus' />
+          <Header  textAlign="center" as='h1' image='https://scontent-eze1-1.xx.fbcdn.net/v/t39.30808-6/265212056_2654708808007696_6941381469015663112_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=2285d6&_nc_eui2=AeECd7QtBOeHL8x5jfSlZct0O1pyo1OgaBk7WnKjU6BoGT0jJLflagjb0zjHVD6CFeAJ26kFxhGn72HzRiCVdx1Q&_nc_ohc=7V0IAI4IQpYQ7kNvgFaUXXS&_nc_ht=scontent-eze1-1.xx&oh=00_AYAG62TOnfsTtIahB2JvgY3DwV1KXT-HePSY-xmZDAX5Aw&oe=66B8934A'  content='Caminando con jesus' />
           <Header textAlign="center"sub>una radio de la iglesia vision de futuro (seccional cordoba)</Header>
   <br />
   <br />
@@ -68,7 +68,7 @@ function App() {
       ) : (
        <Chat socket={socket} username={username} room={room} />
       )}
-       <Header className="header" textAlign="center" as='h1' image='https://scontent-eze1-1.xx.fbcdn.net/v/t39.30808-6/265212056_2654708808007696_6941381469015663112_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeECd7QtBOeHL8x5jfSlZct0O1pyo1OgaBk7WnKjU6BoGT0jJLflagjb0zjHVD6CFeAJ26kFxhGn72HzRiCVdx1Q&_nc_ohc=MhPKiikqUEQQ7kNvgHYfLwE&_nc_ht=scontent-eze1-1.xx&oh=00_AYCXR-nZVBoe30by02KPe9D1g4QlZm5JvtUT1pky3s0MSA&oe=6656CC0A' content='Dejando legado...'  />
+       <Header className="header" textAlign="center" as='h1' image='https://scontent-eze1-1.xx.fbcdn.net/v/t39.30808-6/265212056_2654708808007696_6941381469015663112_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=2285d6&_nc_eui2=AeECd7QtBOeHL8x5jfSlZct0O1pyo1OgaBk7WnKjU6BoGT0jJLflagjb0zjHVD6CFeAJ26kFxhGn72HzRiCVdx1Q&_nc_ohc=7V0IAI4IQpYQ7kNvgFaUXXS&_nc_ht=scontent-eze1-1.xx&oh=00_AYAG62TOnfsTtIahB2JvgY3DwV1KXT-HePSY-xmZDAX5Aw&oe=66B8934A://scontent-eze1-1.xx.fbcdn.net/v/t39.30808-6/265212056_2654708808007696_6941381469015663112_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeECd7QtBOeHL8x5jfSlZct0O1pyo1OgaBk7WnKjU6BoGT0jJLflagjb0zjHVD6CFeAJ26kFxhGn72HzRiCVdx1Q&_nc_ohc=MhPKiikqUEQQ7kNvgHYfLwE&_nc_ht=scontent-eze1-1.xx&oh=00_AYCXR-nZVBoe30by02KPe9D1g4QlZm5JvtUT1pky3s0MSA&oe=6656CC0A' content='Dejando legado...'  />
         
         <p>Cuando pases por las aguas, yo estaré contigo; y si por los rios, no te anegarán.Cuando pases por el fuego, no te quemaras, ni la llama arderá en ti. Isaias 43:2</p>
          
