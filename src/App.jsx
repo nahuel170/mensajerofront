@@ -68,7 +68,7 @@ function App() {
       ) : (
        <Chat socket={socket} username={username} room={room} />
       )}
-       <Header className="header" textAlign="center" as='h1' image='https://scontent-eze1-1.xx.fbcdn.net/v/t39.30808-6/265169026_5118484278202629_1213970805296064830_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGmcPCCINOyy0Zv2Lb6C_S5SnkPilsw5cBKeQ-KWzDlwKYVzKwbaumtNjUcmZkesYWccv8zpsnZIU1o_bmaBaSH&_nc_ohc=s2PED_NIiR0Q7kNvgEOFO59&_nc_ht=scontent-eze1-1.xx&oh=00_AYCsblBZpANCyYyMIEtKIJtFG6LZ8YaUvtIF26fdwIhj1w&oe=66B89722' content='Dejando legado...'  />
+       <Header className="header" textAlign="center" as='h1' src={Logo} content='Dejando legado...'  />
         
         <p>Cuando pases por las aguas, yo estaré contigo; y si por los rios, no te anegarán.Cuando pases por el fuego, no te quemaras, ni la llama arderá en ti. Isaias 43:2</p>
          
