@@ -6,6 +6,7 @@ import Logo from '../public/logo.jpg'
 import io from "socket.io-client";
 import Chat from "./Chat";
 import {
+  Image,
   Card,
   Button,
   Form,
@@ -42,7 +43,10 @@ function App() {
   return (
     <div className="background-container">
     <Container >
-          <Header  textAlign="center" as='h1' src={Logo}  content='Caminando con jesus' />
+    <Header textAlign="center" as="h1">
+    <Image src={Logo} alt="Logo"  />
+    Caminando con Jesús
+  </Header>
           <Header textAlign="center"sub>una radio de la iglesia vision de futuro (seccional cordoba)</Header>
   <br />
   <br />
@@ -68,7 +72,12 @@ function App() {
       ) : (
        <Chat socket={socket} username={username} room={room} />
       )}
-       <Header className="header" textAlign="center" as='h1' src={Logo} content='Dejando legado...'  />
+      <Header textAlign="center" as="h1">
+    <Image src={Logo} alt="Logo"  />
+    Dejando legado...'
+     </Header>
+  {/* </Header>
+       <Header className="header" textAlign="center" as='h1' src={Logo} content='Dejando legado...'  /> */}
         
         <p>Cuando pases por las aguas, yo estaré contigo; y si por los rios, no te anegarán.Cuando pases por el fuego, no te quemaras, ni la llama arderá en ti. Isaias 43:2</p>
          
