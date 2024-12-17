@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-
+import Logo from '../src/assets/logo.jpg'
 
 
 import io from "socket.io-client";
@@ -42,7 +42,7 @@ function App() {
   return (
     <div className="background-container">
     <Container >
-          <Header  textAlign="center" as='h1' image='https://scontent-eze1-1.xx.fbcdn.net/v/t39.30808-6/265169026_5118484278202629_1213970805296064830_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGmcPCCINOyy0Zv2Lb6C_S5SnkPilsw5cBKeQ-KWzDlwKYVzKwbaumtNjUcmZkesYWccv8zpsnZIU1o_bmaBaSH&_nc_ohc=s2PED_NIiR0Q7kNvgEOFO59&_nc_ht=scontent-eze1-1.xx&oh=00_AYCsblBZpANCyYyMIEtKIJtFG6LZ8YaUvtIF26fdwIhj1w&oe=66B89722'  content='Caminando con jesus' />
+          <Header  textAlign="center" as='h1' image={Logo}  content='Caminando con jesus' />
           <Header textAlign="center"sub>una radio de la iglesia vision de futuro (seccional cordoba)</Header>
   <br />
   <br />
