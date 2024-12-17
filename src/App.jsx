@@ -44,7 +44,7 @@ function App() {
     <div className="background-container">
     <Container >
     <Header textAlign="center" as="h1">
-    <Image src={Logo} alt="Logo"  />
+    <Image src='/assets/logo.png' alt="Logo"  />
     Caminando con Jesús
   </Header>
           <Header textAlign="center"sub>una radio de la iglesia vision de futuro (seccional cordoba)</Header>
