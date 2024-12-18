@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import Logo from './assets/logo.png';
+import Logo from './assets/logo.jpg';
 
 
 import io from "socket.io-client";
