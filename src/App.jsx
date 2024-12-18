@@ -74,7 +74,7 @@ function App() {
       )}
       <Header textAlign="center" as="h1">
     <Image src={Logo} alt="Logo"  />
-    Dejando legado...'
+    Dejando legado...
      </Header>
   {/* </Header>
        <Header className="header" textAlign="center" as='h1' src={Logo} content='Dejando legado...'  /> */}
