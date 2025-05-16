@@ -16,7 +16,7 @@ import {
   Divider,
 } from "semantic-ui-react";
 
-const socket = io.connect('https://mensajeroback.onrender.com');
+const socket = io.connect('mensajeroback-production.up.railway.app');
 function App() {
   const [username, setUsername] = useState("");
   const room = "general";
